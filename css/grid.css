@@ -384,6 +384,7 @@ hr {
 
 /* 追加
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+@media screen and (min-width: 768px){
 .char_main {
   margin-left: 20px;
 }
@@ -391,3 +392,13 @@ hr {
 .char_s {
   margin-left: 80px;
 }
+}
+@media screen and (max-width: 768px){
+  .char_main {
+    margin-left: 0px;
+  }
+  
+  .char_s {
+    margin-left: 0px;
+  }
+  }
